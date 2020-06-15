@@ -3,7 +3,9 @@
         "target": "es6",
         "outDir": "app/js",
         "noEmitOnError": true,
-        "moduleResolution": "node"
+        "moduleResolution": "node",
+        "noImplicitAny": true,
+        "removeComments": true
     },
     "include": [
         "app/ts/**/*"
