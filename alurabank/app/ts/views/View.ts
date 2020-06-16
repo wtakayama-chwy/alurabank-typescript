@@ -1,5 +1,5 @@
 // Abstract = there's no reason to implemented - doesn't make sense const a = new View('#abc')
-abstract class View<T> {
+export abstract class View<T> {
 
     private _element: JQuery;
 
