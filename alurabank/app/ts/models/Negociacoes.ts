@@ -1,4 +1,4 @@
-import { Negociacao } from './Negociacao'
+import { Negociacao } from './Negociacao';
 
 export class Negociacoes {
 
@@ -12,6 +12,6 @@ export class Negociacoes {
     // Good coding practice to define which types they're returning
     paraArray(): Negociacao[] {
         // Defensive programming avoiding users to modify directly your array
-        return [].concat(this._negociacoes);
+        return ([] as Negociacao[]).concat(this._negociacoes);
     }
 }
